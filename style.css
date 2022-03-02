@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Blanket element styling, highest -> lowest on hierarchy */
+* {
+    margin: 0;
+}
+
+body {
+    background: #FFDBFF;
+    background: linear-gradient(0deg, rgba(255,178,216,1) 0%, rgba(254,178,255,1) 50%, rgba(213,178,255,1) 100%);
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    font-size: 12pt;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+a {
+    color: #AF52D3;
+}
+
+h1 {
+    font-size: 21pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+blockquote {
+    background: #e8e8e8;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+ul > ul {
+    margin-left: 1em;
+}
+
+/* Top -> Bottom element styling */
+nav, .article-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.metadata {
+    border-bottom: 1px dashed black;
+    margin-bottom: 0.75em;
+    padding-bottom: 0.5em;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.article-subtitle {
+    font-style: italic;
+    padding-top: 0.25em;
+}
+
+.content {
+    line-height: 1.6;
+}
+
+.content h1, h2 {
+    margin-top: 0.25em;
+    margin-bottom: -0.25em;
+}
+
+.content p, blockquote, .list, ul:not(ul ul) {
+    margin-top: 0.75em;
+}
+
+.footnotes {
+    border-top: 1px dashed black;
+    padding-top: 0.5em;
+    margin-top: 0.75em;
+    line-height: 1.25;
+}
+
+.footnotes p {
+    margin-top: 0.25em;
+}
+
+footer {
+    text-align: center;
+}
+
+nav, main, footer {
+    background: white;
+    border: 1px solid black;
+    box-shadow: 0.5em 0.5em black;
+    margin: 1em;
+    padding: 1em;
+}
