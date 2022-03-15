@@ -105,7 +105,7 @@ nav, main, footer {
 }
 
 .warn {
-    background: linear-gradient(0deg, rgba(255,178,216,1) 0%, rgba(254,178,255,1) 50%, rgba(213,178,255,1) 100%);
+    background: linear-gradient(0deg, rgb(185, 90, 222) 0%, rgb(224, 146, 254) 100%);
     color: #fff;
     margin-bottom: 1em;
     padding: 0.5em;
