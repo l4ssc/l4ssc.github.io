@@ -103,3 +103,8 @@ nav, main, footer {
     margin: 1em;
     padding: 1em;
 }
+
+.warn {
+    background: linear-gradient(0deg, rgba(255,178,216,1) 0%, rgba(254,178,255,1) 50%, rgba(213,178,255,1) 100%);
+    color: #fff;
+}
